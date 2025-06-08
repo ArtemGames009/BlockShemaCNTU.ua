@@ -1,0 +1,83 @@
+.inf {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.inf {
+    background: linear-gradient(90deg, rgba(101, 69, 204, 1) 6%, rgba(87, 96, 199, 1) 50%, rgba(132, 115, 207, 1) 68%, rgba(168, 83, 237, 1) 96%);
+    color: #333;
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+}
+
+.talk {
+    font-weight: bold;
+}
+
+.price {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color:#cc4559;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button{
+    background: #d41935;
+}
+#goButton {
+  background-color: #4CAF50; 
+  color: rgb(82, 37, 206);              
+  padding: 12px 24px;         
+  border: none;               
+  border-radius: 8px;         
+  font-size: 16px;           
+  cursor: pointer;            
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+#goButton:hover {
+  background-color: #45a049;  
+  transform: scale(1.05);     
+}
+
+#goButton:active {
+  transform: scale(0.97);     
+}
+.perehod {
+    color:#0ddf29;
+    text-decoration: none;
+    font-weight: bold;
+}
