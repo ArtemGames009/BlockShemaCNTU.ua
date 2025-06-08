@@ -1,0 +1,1 @@
+# BlockShemaCNTU.ua
